@@ -33,8 +33,14 @@ WIN_COMBINATIONS = [
      end
    end
    
-
-      
+   def full?(board)
+     if board.detect {index == " " || index == nil}
+       return false
+     else
+       return true
+     end
+   end
+   
       
 
 
