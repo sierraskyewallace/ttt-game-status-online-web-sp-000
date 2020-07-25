@@ -57,6 +57,13 @@ WIN_COMBINATIONS = [
      end
    end
    
+   def winner(board)
+     if win_combination = true
+       won?(board)[win_combination.first]
+     end
+   end
+   
+   
    
       
 
