@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [0,4,8]
   ]
    def won?(board)
-     WIN_COMBINATIONS
+     WIN_COMBINATIONS.detect
 
       
       
